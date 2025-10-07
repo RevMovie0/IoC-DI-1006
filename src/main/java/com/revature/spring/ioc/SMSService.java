@@ -1,13 +1,13 @@
 package com.revature.spring.ioc;
 
-public class EmailService implements MessageService {
+public class SMSService implements MessageService {
     @Override
     public String getMessage() {
-        return "This is an Email message.";
+        return "This is an SMS message.";
     }
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("Email sent: " + message);
+        System.out.println("SMS sent: " + message);
     }
 }

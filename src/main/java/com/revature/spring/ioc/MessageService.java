@@ -1,5 +1,7 @@
 package com.revature.spring.ioc;
 
 public interface MessageService {
-    void printMessage();
+    String getMessage();
+
+    void sendMessage(String message);
 }
