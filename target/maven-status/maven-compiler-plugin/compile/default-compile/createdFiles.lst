@@ -1,5 +1,8 @@
+com\revature\spring\ioc\MessageService.class
+com\revature\spring\ioc\EmailService.class
+com\revature\SMSService.class
 com\revature\MessageService.class
 com\revature\App.class
+com\revature\spring\ioc\App.class
 com\revature\MessageClient.class
 com\revature\EmailService.class
-com\revature\SMSService.class
